@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bungee", cursive;
+}
+
+.container {
+  position: relative;
+  /* justify-content: center; */
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  /* width: 100%; */
+  background: #1d1c19;
+}
+
+.navbar {
+  position: absolute;
+  font-family: "Bungee", cursive;
+  list-style: none;
+  width: 50%;
+  /* left: 185px; */
+  top: 80px;
+  /* background-color: #ffffff; */
+  z-index: 99;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav-item a {
+  color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration: none;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  position: relative;
+
+  width: 614px;
+  height: 246.64px;
+  left: 270px;
+  top: 417px;
+  flex-direction: column;
+  z-index: 99;
+  /* background-color: #fff; */
+}
+
+.content h1 {
+  /* position: absolute; */
+  color: #dd602f;
+  left: 183px;
+  font-size: 64px;
+  line-height: 77px;
+}
+.content p {
+  /* position: absolute; */
+  color: #fff;
+  /* height: 29px; */
+  margin-left: auto;
+  /* margin-top: auto; */
+  font-size: 24px;
+  /* line-height: 36px; */
+}
+.btn {
+  margin-top: auto;
+  width: 269px;
+  height: 67.64px;
+  left: 329px;
+  top: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #ffffff;
+  border-radius: 34.6082px;
+}
+
+.image {
+
+ 
+
+    /* margin-left: auto; */
+
+    width: 100%;
+    transition: all .5s ease-out;
+  
+}
+
+@media screen and (max-width: 1700px) {
+
+
+    .content {
+        width: auto;
+        position: absolute;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .content h1 {
+        font-size: 36px;
+        width: auto;
+    }
+
+    .content p {
+        font-size: 18px;
+        width: auto;
+        
+    }
+    .image {
+        position: absolute;
+        width: 100%;
+        opacity: 0.5;
+        transition: all 0.5s ease-in;
+    }
+    .navbar {
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    
+    .image {
+        margin-top: 100px;
+  
+        opacity: 0.1;
+    } 
+
+    .content {
+        left: 10%;
+        z-index: 99;
+        position: absolute;
+        width: 77.5%;
+
+    }
+
+    .content h1 {
+        font-size: 36px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .content p {
+        font-size: 18px;
+        margin-right: auto;
+        
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+
+
+ 
+}
