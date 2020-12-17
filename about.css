@@ -5,16 +5,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Bungee", cursive;
-  transition: all 0.5s ease-out;
 }
 
 .container {
   position: relative;
+
   overflow: hidden;
-  height: 100vh;
+  height: 300vh;
+  width: 100%;
   width: 100%;
   background: #1d1c19;
-  transition: all 0.5s ease-out;
 }
 
 .navbar {
@@ -37,75 +37,91 @@
   font-size: 24px;
   line-height: 29px;
   text-decoration: none;
-  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-in;
 }
 
 .nav-item a:hover {
   color: #dd602f;
 }
 
-.main {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
+.bg-image {
+  top: 400px;
+  position: absolute;
+  opacity: 0.1;
+  width: 100%;
+  height: 300vh;
 }
 
-.content {
-  display: flex;
-  position: relative;
-
-  width: 614px;
-  height: 246.64px;
-  left: 270px;
-  top: 417px;
-  flex-direction: column;
-  z-index: 99;
+.veer-shivaji {
+  height: 450px;
+  width: 300px;
 }
-
-.content h1 {
-  color: #dd602f;
-  left: 183px;
-  font-size: 64px;
-  line-height: 77px;
-}
-.content p {
-  color: #fff;
-  margin-left: auto;
-  font-size: 24px;
-}
-.btn , button{
-  margin-top: auto;
-  width: 269px;
-  height: 67.64px;
-  left: 329px;
-  top: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-  background: #ffffff;
-  border-radius: 34.6082px;
-}
-
-button:hover {
-  background: #131313;
-  color: #fff;
-}
-
-
-
-
 
 .image {
-  top: 0;
-
-    width: 100%;
-    transition: all .5s ease-out;
-  
+  position: absolute;
+  left: 260px;
+  width: 100%;
+  top: 320px;
+  height: 100%;
 }
 
-@media screen and (max-width: 1700px) {
+.content-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-page {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  height: 63%;
+  top: 300px;
+  left: 700px;
+
+  width: 50%;
+}
+
+.content-para {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 600px;
+  height: 70%;
+}
+
+h1 {
+  font-size: 64px;
+  color: #b4975b;
+}
+
+h2 {
+  color: #b4975b;
+  font-size: 44px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.subtext {
+  color: #df6642;
+}
+
+.military-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+  line-height: 36px;
+}
+
+
+/* Mobile-View Here */
+
+/* @media screen and (max-width: 1700px) {
 
 
     .content {
@@ -175,4 +191,4 @@ button:hover {
 
 
  
-}
+} */
