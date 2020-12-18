@@ -11,7 +11,7 @@
 .container {
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  height: 300vh;
   width: 100%;
   background: #1d1c19;
   transition: all 0.5s ease-out;
@@ -105,6 +105,8 @@ button:hover {
   
 }
 
+
+
 @media screen and (max-width: 1700px) {
 
 
@@ -176,3 +178,6 @@ button:hover {
 
  
 }
+
+
+/* =======================================abour.css=========================================== */
